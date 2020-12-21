@@ -17,8 +17,11 @@ pip3 install -U git+https://github.com/Netherdrake/conductor
 4.更新系统，安装依赖，获取 steem-docker 的安装脚本
 
 sudo apt update
+
 sudo apt install git curl wget
+
 git clone https://github.com/maiyude2018/steem-docker.git
+
 cd steem-docker
 
 5.安装 Docker，如果你的系统目前已经安装，则跳过该步
