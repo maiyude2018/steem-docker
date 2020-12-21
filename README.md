@@ -25,3 +25,13 @@ docker run -v $(pwd)/:/download --rm leopere/axel-docker -n 5 https://files.stee
 
 7.解压数据
 tar xf steem_witness-20201218.tar.lz4 -I lz4 -C /root/steem-docker/data/witness_node_data_dir/
+
+8.
+启动
+./run.sh start
+重启
+./run.sh restart
+停止
+./run.sh stop
+重新replay
+./run.sh replay
